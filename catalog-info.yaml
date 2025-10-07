@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Prebid.js
+  description: Component for Prebid.js
+  annotations:
+    circleci.com/project-slug: github/newsuk/Prebid.js
+    backstage.io/source-location: url:https://github.com/newsuk/Prebid.js/
+    github.com/team-slug: newsuk/Prebid.js
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/productivity-hub-metrics-enabled: 'true'
+  tags:
+    - bu:newsuk
+spec:
+  type: service
+  lifecycle: production
+  
